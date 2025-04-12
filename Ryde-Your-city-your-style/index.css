@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins';
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    height: 100vh;
+    align-items: center;
+}
+.parent-container{
+    background-image: url(car\ interior.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 45%;
+    color: rgb(255, 255, 255);
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.child-container{
+    background-image: url(white\ borad.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 5px;
+    height: 100vh;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sub-container-1{
+    display: block;
+}
+.sign{
+    color: rgb(0, 0, 0);
+}
+form input{
+    width: 200px;
+    height: 40px;
+    margin: 10px 5px;
+    border: 3px;
+    padding-left: 10px;
+    border-radius: 7px;
+    border-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+form button{
+    padding: 9px 30px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: 3px;
+    border-radius: 7px;
+    cursor: pointer;
+    width: 400px;
+    height: 40px;
+}
+.icons{
+    justify-content: space-evenly;
+}
+span{
+    text-decoration: none;
+}
+a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+a span{
+    text-decoration: underline;
+} 
+.h1{
+   font-size: 30px;
+   color:rgb(0, 0, 0);
+   display: flex;
+   font-family: 'Courier New', Courier, monospace;
+   font-weight: bold;
+}
+.link{
+    color: white;
+}

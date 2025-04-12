@@ -1,0 +1,158 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+section{
+    font-family: "Poppins", sans-serif;
+   font-weight: 200;
+   font-style: normal;
+}
+.logo h1{
+    margin: 0;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav li{
+    margin: 0 10px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.ryde{
+    color: rgb(167, 24, 24);
+}
+form{
+    border: 7px;
+    border-radius: px;
+}
+.hero{
+    background-image: url(car\ interior\ 2.avif);
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    color: rgb(167, 24, 24);
+    text-align: center;
+   
+    padding: 100px 0;
+}
+.hero h1{
+    justify-content: left;
+    margin: 0;
+    font-size: 70px;
+}
+.hero p{
+    margin: 20px 0;
+    font-size: 25px;
+    justify-content: right;
+    color: white;
+}
+.hero button{
+    background-color: rgb(167, 24, 24);
+    color: white;
+    border: 7px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.earn{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 50px;
+}
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+}
+.earn h1{
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.options{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.options button{
+    background-color: rgb(167, 24, 24);
+    border: 1px solid #000000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+}
+.Logo{
+    margin-left: 20px;
+}
+.Logo h1{
+    font-size: 24px;
+    font-weight: bold;
+}
+.about nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.about nav li{
+    margin: 0 15px;
+}
+.about nav ul li a{
+    color: #000000;
+    text-decoration: none;
+}
+.patner, .company{
+    margin-right: 20px;
+}
+.patner h3, .company h3{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.patner ul, .company ul{
+    list-style: none;
+    padding: 0;
+}
+.patner ul li, .company ul li{
+    margin-bottom: 5px;
+}
+.patner ul li a, .company ul li a{
+    color: #000;
+    text-decoration: none;
+}
+.sponsors{
+    text-align: center;
+    padding: 50px 0;
+}
+.sponsors h2{
+    margin: 0;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    color: red;
+}
